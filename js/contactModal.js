@@ -2,8 +2,8 @@
     $(document).ready(function () {
         contactModalAnchor();
         contactModalHander();
-        changeCaptchaHander();
     });
+
 
     function contactModalAnchor() {
         $("#contact-modal-btn").click(function() {
@@ -114,6 +114,27 @@
         });
     }
 
+    function getMessageSend(res) {
+        resText = res.responseText;
+        var jsonMsgObj = new JsonMsgObj(resText);
+        var codeid = jsonMsgObj.getCodeid();
+        if (codeid == 0) {
+            alert(jsonMsgObj.getMessage());
+            if (url == null || url == '') {
+                window.location.href = '/';
+            } else {
+                window.location.href = url;
+            }
+        } else {
+            hiddenButton_2();
+            alert(jsonMsgObj.getMessage());
+        }
+    }
+
+    function testStatInput() {
+        statInput('question', 140);
+    }
+
     function checkStringName(nameId, message) {
         nameId = '#' + nameId;
         if (jQuery(nameId).val().match(/^\s*$/g)) {
@@ -124,13 +145,6 @@
             jQuery(nameId + "Message").html('');
             return true;
         }
-    }
-
-
-    function changeCaptchaHander() {
-        $('#change-captcha').bind('click', function(){
-            $('#captcha').attr('src', 'captcha.php?t=' + Math.random());
-        });
     }
 })(jQuery);
 

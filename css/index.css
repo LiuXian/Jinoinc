@@ -1,11 +1,29 @@
-.row.row1{
+.row1{
     border-bottom: none;
 }
-.row.row3 {
-    padding: 0;
-    margin: 0;
-    border-bottom: none;
+.row2 {
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
+input.form-control.search-input-box {
+    margin-bottom: 6px;
+    margin-right: 6px;
+}
+
+.modal-content {
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+}
+
+#contact-modal-submit {
+    float: left;
+}
+
+#contact-modal-cancel {
+    float: left;
+}
+
 input.form-control.search-input-box{
     margin-bottom: 6px;
     margin-right: 6px;
