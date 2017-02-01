@@ -1,0 +1,55 @@
+body {
+    margin-bottom: 100px;
+    margin-right: 0px;
+    padding-top:100px;
+}
+h1, .h1, h2, .h2, h3, .h3{
+    color: #34373c;
+}
+h2.OUR-CLIENTS-SECTION-TITLE-TEXT.text-center{
+    color: #fff;
+}
+
+a{
+    cursor: pointer;
+    transition: color 0.3s;
+    color: #000;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #EE852b
+}
+.btn{
+    border-radius: 0px;
+    border: none;
+    transition: background 0.3s;
+
+}
+
+.row {
+    margin: 20px 0px 20px 0px;
+    padding: 100px 0;
+    border-bottom: 1px solid #dddddd;
+}
+
+#contactModal {
+    overflow-y: scroll;
+}
+
+.err-msg {
+    color: red;
+}
+
+.contact-us-btn {
+    position: fixed;
+    right: 0px;
+    bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .row {
+        padding: 0px;
+    }
+}
+

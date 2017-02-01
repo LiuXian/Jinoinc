@@ -1,0 +1,18 @@
+.links {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer {
+    margin-top: 20px;
+}
+p.COPYRIGHT-TEXT{
+    line-height: 60px;
+}
+
+@media (max-width: 768px) {
+    p.COPYRIGHT-TEXT{
+        line-height: 30px;
+    }
+}

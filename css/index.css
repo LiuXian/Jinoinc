@@ -1,0 +1,372 @@
+.row.row1{
+    border-bottom: none;
+}
+.row.row3 {
+    padding: 0;
+    margin: 0;
+    border-bottom: none;
+}
+input.form-control.search-input-box{
+    margin-bottom: 6px;
+    margin-right: 6px;
+}
+.modal-content{
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+}
+#contact-modal-submit{
+    float: left;
+}
+#contact-modal-cancel{
+    float: left;
+}
+
+h2.SOLUTIONS-TEXT.text-center{
+    margin: 70px 0 30px 0;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+.imsg-mobile {
+    display: none;
+}
+
+.col-sm-6.col-md-6.text {
+    padding: 0px 8%;
+}
+
+.col-sm-6.col-md-6 img {
+    text-align: center;
+    width: 118px;
+    height: 100px;
+}
+.col-sm-6.col-md-6 h3 {
+    color: #2977a8;
+
+}
+.col-sm-6.col-md-6 h4 {
+    line-height: 40px;
+}
+.bugu-icon{
+    width: 160px !important;
+}
+
+.page-header {
+    padding: 0px 10%;
+}
+
+.clients .thumbnail {
+    height: 150px;
+    border: 0px;
+}
+
+.jum-top-banner {
+    background: url(../images/jumbotron.jpg) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 10% 8%;
+    position: relative;
+}
+
+.jum-top-banner h2 {
+    margin: 10px 0px;
+    color: #fff;
+    font-family: "微软雅黑","Open Sans";
+    font-weight: bold;
+    font-size: 35px;
+    width: 50%;
+    line-height: 43px;
+}
+
+.jum-top-banner p {
+    margin: 10px 0px;
+    color: white;
+    font-family: "微软雅黑","Open Sans";
+    padding-bottom: 20px;
+    font-size: 18px;
+    padding-top: 10px;
+    width: 49%;
+    line-height: 30px;
+}
+
+.jumbotron-learn-more {
+    background-color: #EE852b;
+    font-size: 18px;
+    width: 160px;
+    padding: 10px 0;
+}
+
+.learn-more-link {
+    color: #EE852B;
+}
+.learn-more-link:hover {
+    color: #2977a8;
+}
+.banner-icon1 {
+    width: 33%;
+    height: auto;
+    position: absolute;
+    right: 11%;
+    top: 12%;
+    animation: banner-icon1-show 2s;
+    -moz-animation: banner-icon1-show 2s;	/* Firefox */
+    -webkit-animation: banner-icon1-show 2s;	/* Safari 和 Chrome */
+    -o-animation: banner-icon1-show 2s;
+}
+
+.banner-icon2 {
+    width: 39%;
+    height: auto;
+    position: absolute;
+    right: 7%;
+    top: 14%;
+    animation: banner-icon2-show 2s;
+    -moz-animation: banner-icon2-show 2s;	/* Firefox */
+    -webkit-animation: banner-icon2-show 2s;	/* Safari 和 Chrome */
+    -o-animation: banner-icon2-show 2s;
+}
+
+
+.our-clients-container {
+    background: url(../images/clientsbg.jpg) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.our-clients-container .thumbnail {
+    background-color: transparent;
+}
+
+@media (max-width: 768px) {
+    .col-xs-6.col-md-2.text-center{
+        margin: 5px 0 10px 0;
+    }
+
+    .our-clients-container{
+        padding-bottom: 0;
+    }
+
+    .jum-top-banner h2{
+        font-size: 26px;
+
+    }
+    .jum-top-banner p{
+        font-size: 15px;
+
+    }
+
+    .bugu-icon{
+        width: 118px !important;
+    }
+    .col-sm-6.col-md-6 img{
+        height: 92px;
+        margin-bottom: 10px;
+    }
+    .col-sm-6.col-md-6 h3{
+        margin-top: 0;
+
+    }
+}
+
+@media (max-width: 748px) {
+    .imsg-mobile {
+        display: block;
+    }
+
+    .imsg-pc {
+        display: none;
+    }
+}
+
+@keyframes banner-icon1-show {
+    from {
+        opacity: 0;
+        top: 5%;
+    }
+    to {
+        opacity: 1;
+        top: 12%;
+    }
+}
+
+@-moz-keyframes banner-icon1-show /* Firefox */
+{
+    from {
+        top: 5%;
+        opacity: 0;
+    }
+    to {
+        top: 12%;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes banner-icon1-show /* Safari 和 Chrome */
+{
+    from {
+        top: 5%;
+        opacity: 0;
+    }
+    to {
+        top: 12%;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes banner-icon1-show /* Opera */
+{
+    from {
+        top: 5%;
+        opacity: 0;
+    }
+    to {
+        top: 12%;
+        opacity: 1;
+    }
+}
+
+@keyframes banner-icon1-show {
+    from {
+        top: 5%;
+        opacity: 0;
+    }
+    to {
+        top: 12%;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes banner-icon1-show /* Firefox */
+{
+    from {
+        top: 5%;
+        opacity: 0;
+    }
+    to {
+        top: 12%;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes banner-icon1-show /* Safari 和 Chrome */
+{
+    from {
+        top: 5%;
+        opacity: 0;
+    }
+    to {
+        top: 12%;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes banner-icon1-show /* Opera */
+{
+    from {
+        top: 5%;
+        opacity: 0;
+    }
+    to {
+        top: 12%;
+        opacity: 1;
+    }
+}
+
+@keyframes banner-icon1-show {
+    from {
+        top: 5%;
+        opacity: 0;
+    }
+    to {
+        top: 12%;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes banner-icon1-show /* Firefox */
+{
+    from {
+        top: 5%;
+        opacity: 0;
+    }
+    to {
+        top: 12%;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes banner-icon1-show /* Safari 和 Chrome */
+{
+    from {
+        top: 5%;
+        opacity: 0;
+    }
+    to {
+        top: 12%;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes banner-icon1-show /* Opera */
+{
+    from {
+        top: 5%;
+        opacity: 0;
+    }
+    to {
+        top: 12%;
+        opacity: 1;
+    }
+}
+
+@keyframes banner-icon2-show {
+    from {
+        top: 30%;
+        opacity: 0;
+    }
+    to {
+        top: 14%;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes banner-icon2-show /* Firefox */
+{
+    from {
+        top: 30%;
+        opacity: 0;
+    }
+    to {
+        top: 14%;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes banner-icon2-show /* Safari 和 Chrome */
+{
+    from {
+        top: 30%;
+        opacity: 0;
+    }
+    to {
+        top: 14%;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes banner-icon2-show /* Opera */
+{
+    from {
+        top: 30%;
+        opacity: 0;
+    }
+    to {
+        top: 14%;
+        opacity: 1;
+    }
+}

@@ -1,0 +1,114 @@
+.navbar{
+    margin-bottom: 0;
+    border: none;
+}
+
+.nav-container {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.form-control{
+    border-radius: 0px;
+    box-shadow: none;
+    height: 30px;
+}
+
+.navbar.navbar-default.navbar-fixed-top {
+    background: white;
+}
+
+.navbar.navbar-default.navbar-fixed-top .navbar-header {
+    height: 100px;
+}
+
+.navbar.navbar-default.navbar-fixed-top img {
+    display: inline-block;
+    width: 15%;
+}
+
+.navbar.navbar-default.navbar-fixed-top .company-name {
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 0px;
+    font-family: "微软雅黑","Open Sans";
+    margin-left: 15px;
+    color: #34373c;
+}
+
+.navbar-default .navbar-nav .selected a {
+    color: #EE852b !important;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #34373c;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color:#EE852b;
+}
+a.navbar-brand{
+    margin-top: 15px;
+}
+
+.lang-switch {
+    text-align: right;
+    font-size: 12px;
+}
+
+.lang-switcher.active {
+    color: #EE852b;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: #fff;
+    border: none;
+}
+
+span.lang-switcher{
+    padding: 0 10px;
+}
+
+.form-control.search-input-box {
+    display: none;
+}
+
+.search-input-button {
+    margin-top: 10px;
+}
+
+.navbar-toggle{
+    padding: 9px;
+    border: none;
+    margin-top: 25px;
+}
+.navbar-nav{
+    margin-top: 25px;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #34373c;
+}
+
+@media (max-width: 768px) {
+    .row {
+        padding: 0px;
+    }
+    .navbar.navbar-default.navbar-fixed-top .company-name {
+        display: block;
+        margin-left: 0px;
+    }
+    span.lang-switcher{
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 748px) {
+    .search-input-button {
+        margin-left: 20px;
+    }
+
+    .form-control.search-input-box {
+        display: block;
+    }
+}
