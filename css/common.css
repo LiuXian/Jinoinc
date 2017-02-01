@@ -43,13 +43,94 @@ a:hover{
 
 .contact-us-btn {
     position: fixed;
-    right: 0px;
+    left: 100%;
+    margin-left: -50px;
     bottom: 10px;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    border-radius: 25px 25px 25px 25px;
+    z-index: 1041;
+}
+
+.contact-us-icon {
+    top: 3px;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    transition:all 0.5s ease;
+}
+
+.contact-us-btn.open .contact-us-icon {
+    opacity: 0;
+}
+
+.contact-us-remove-icon {
+    top: 3px;
+    left: -22px;
+    opacity: 0;
+    -moz-transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+
+    -webkit-transition:all 1s ease-in-out;
+    -moz-transition:all 1s ease-in-out;
+    -o-transition:all 1s ease-in-out;
+    -ms-transition:all 1s ease-in-out;
+    transition:all 1s ease-in-out;
+}
+
+.contact-us-btn.open .contact-us-remove-icon {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    opacity: 1;
+}
+
+.modal-open {
+    overflow: auto;
+}
+
+.contact-us-modal {
+    width: 600px;
+    left: 100%;
+    margin-left: -700px;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+    -moz-transform: translateY(800px);
+    -webkit-transform: translateY(800px);
+    -o-transform: translateY(800px);
+    -ms-transform: translateY(800px);
+    transform: translateY(800px);
+    opacity: 0.8;
+}
+
+.contact-modal-slide-up {
+    -moz-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
 }
 
 @media (max-width: 768px) {
     .row {
         padding: 0px;
+    }
+
+    .contact-us-modal {
+        width: auto;
+        margin-left: 0px;
+        left: 0px;
     }
 }
 

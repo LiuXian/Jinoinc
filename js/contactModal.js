@@ -1,8 +1,30 @@
 (function ($) {
     $(document).ready(function () {
+        contactModalAnchor();
         contactModalHander();
         changeCaptchaHander();
     });
+
+    function contactModalAnchor() {
+        $("#contact-modal-btn").click(function() {
+            if($(".contact-us-btn").hasClass("open")) {
+                $(".contact-us-btn").removeClass("open");
+                $("#contactModal").removeClass("contact-modal-slide-up");
+                setTimeout(function() {
+                    $("#contactModal").modal("hide");
+                }, 1000);
+            } else {
+                $(".contact-us-btn").addClass("open");
+                $("#contactModal").modal({
+                    backdrop: false
+                });
+                $("body").css({
+                    "padding-right" : "0px"
+                })
+                $("#contactModal").addClass("contact-modal-slide-up");
+            }
+        });
+    }
 
     function contactModalHander() {
         $("#contact-modal-submit").click(function () {
