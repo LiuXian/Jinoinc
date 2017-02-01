@@ -28,7 +28,8 @@
     text-align: center;
     position: absolute;
     top: -107px;
-    left: 44%;
+    left: 50%;
+    margin-left: -90px;
     background: #fff;
     width: 180px;
     height: 180px;
@@ -90,4 +91,10 @@
     position: absolute;
     top: -70px;
     left: 50%;
+}
+
+@media (max-width: 768px) {
+    .container-solutions {
+        padding: 10px 5%;
+    }
 }
