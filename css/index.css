@@ -161,6 +161,29 @@ h2.SOLUTIONS-TEXT.text-center{
     background-color: transparent;
 }
 
+.product-icon-container {
+    -webkit-transition:all 1s ease-in-out;
+    -moz-transition:all 1s ease-in-out;
+    -o-transition:all 1s ease-in-out;
+    -ms-transition:all 1s ease-in-out;
+    transition:all 1s ease-in-out;
+    -moz-transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -o-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+    opacity: 0;
+}
+
+.product-icon-container.normal {
+    opacity: 1;
+    -moz-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
 @media (max-width: 768px) {
     .col-xs-6.col-md-2.text-center{
         margin: 5px 0 10px 0;

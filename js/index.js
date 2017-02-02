@@ -1,6 +1,7 @@
 (function ($) {
     $(document).ready(function () {
         learnMoreScroll();
+        productIconShow();
     });
 
     function searchHandler() {
@@ -62,5 +63,32 @@
             event.stopPropagation();
         });
     }
+
+    function productIconShow() {
+        var $booguContainer = $(".boogu-container");
+        var $imsgContainer = $(".imsg-container");
+        var $eCommerceContainer = $(".e-commerce-container");
+
+        $(window).scroll(function() {
+            var scrollTop = $(window).scrollTop();
+            var booguOffsetTop = $booguContainer.offset().top;
+            var imsgOffsetTop = $imsgContainer.offset().top;
+            var ecommerceOffsetTop = $eCommerceContainer.offset().top;
+            var windowHeight = $(window).height();
+
+            if(!$booguContainer.hasClass("normal") && ((booguOffsetTop - scrollTop) < windowHeight)) {
+                $booguContainer.addClass("normal");
+            }
+
+            if(!$imsgContainer.hasClass("normal") && ((imsgOffsetTop - scrollTop) < windowHeight)) {
+                $imsgContainer.addClass("normal");
+            }
+
+            if(!$eCommerceContainer.hasClass("normal") && ((ecommerceOffsetTop - scrollTop) < windowHeight)) {
+                $eCommerceContainer.addClass("normal");
+            }
+        });
+    }
+
 
 })(jQuery);
