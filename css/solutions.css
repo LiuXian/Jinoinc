@@ -98,16 +98,32 @@
 }
 
 .imsg1 h3{
-  background: #0a5295;
+  background: #242f33;
 }
 
 .imsg1 ul{
-  border: 1px solid #0a5295;
+  border: 1px solid #242f33;
 }
+.solutions{
+  background: #242f33;
+}
+
+.solutions .row1 a{
+  color: #fff;
+}
+
+.solutions .row1 a:hover{
+  color: #EE852b;
+}
+
+.solutions .COPYRIGHT-TEXT{
+  color: #ccc;
+}
+
 
 .glyphicon-arrow-down {
     font-size: 30px;
-    color: #0a5295;
+    color: #242f33;
     position: absolute;
     top: -70px;
     left: 50%;

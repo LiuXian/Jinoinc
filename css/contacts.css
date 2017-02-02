@@ -3,10 +3,6 @@
   margin-bottom: 30px;
 }
 
-.container-solutions table{
-
-}
-
 .container-solutions td{
   padding:10px;
   border: 1px solid #ddd;
@@ -22,3 +18,8 @@
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
 }
+
+.solution-table{
+  background: #fff;
+}
+

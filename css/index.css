@@ -67,6 +67,7 @@ h2.SOLUTIONS-TEXT.text-center{
 }
 .col-sm-6.col-md-6 h4 {
     line-height: 40px;
+    font-weight: 600;
 }
 .bugu-icon{
     width: 160px !important;
@@ -140,7 +141,7 @@ h2.SOLUTIONS-TEXT.text-center{
     height: auto;
     position: absolute;
     right: 7%;
-    top: 14%;
+    top: 13%;
     animation: banner-icon2-show 2s;
     -moz-animation: banner-icon2-show 2s;	/* Firefox */
     -webkit-animation: banner-icon2-show 2s;	/* Safari 和 Chrome */
