@@ -37,7 +37,7 @@ var langSwitch = {
     },
     "LEARN-MORE-TEXT": {
         "zh" : "了解更多",
-        "en" : "learn more"
+        "en" : "Learn more"
     },
     "COPYRIGHT-TEXT" : {
         "zh" : "© 2004-2017 Copyrights – Jino Technology Co., Ltd 京ICP备12012506号 京公网安备11010502024793号",
