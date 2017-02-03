@@ -1,5 +1,10 @@
 var langSwitch = langSwitch || {}
 langSwitch = $.extend(langSwitch, {
+    "SOLUTION-TITLE-BOOGU-TEXT" : {
+        "zh": "布谷",
+        "en": "Boogu"
+    },
+
     "BOOGU-TITLE-TEXT": {
         "zh": "关于布谷——社会化媒体整合管理平台",
         "en": "About Boogu —— Social media integration management platform"
@@ -281,7 +286,70 @@ langSwitch = $.extend(langSwitch, {
     "EASY-TO-USE-SAFE-LINE2-TEXT": {
         "zh": "定制化服务",
         "en": "Customized services"
-    }
+    },
 
+    "E-COMMERCE-INTRO-TITLE-TEXT": {
+        "zh": "E-commerce介绍",
+        "en": "E-commerce introduction"
+    },
+
+    "E-COMMERCE-INTRO-LINE1-TEXT": {
+        "zh": "JINO Trader 是北京吉诺恒扬网络技术有限公司积累了多年来的资源成立的新产品线，主要是为企业提供电子商务解决方案和服务咨询,运营。",
+        "en": "JINO Trader is Beijing Jino Technology Co., Ltd. has accumulated over the years the resources set up a new product line, mainly for enterprises to provide e-commerce solutions and services consulting, operations."
+    },
+
+    "E-COMMERCE-INTRO-LINE2-TEXT": {
+        "zh": "传统企业从2004年开始就受到来自电商或竞争对手们在网络上销售的冲击，但是布局电子商务有各种各样的约束，如：技术开发，市场了解，营销策略，物流配送，售后服务等等",
+        "en": "Traditional enterprises from the beginning in 2004 by the electricity supplier or competitors in the network sales impact, but the layout of e-commerce has a variety of constraints, such as: technology development, market understanding, marketing strategy, logistics and distribution, after-sales service and many more."
+    },
+
+    "E-COMMERCE-INTRO-LINE3-TEXT": {
+        "zh": "作为业内专业的电子商务解决方案和服务运营提供商——JINO Trader，我们将为您提供全程服务——包含前期咨询与规划、技术开发与实施、运营资源整合，营销推广，网站维护与运营等方面的支持与服务。",
+        "en": "As a professional e-commerce solution provider and service provider - JINO Trader, we will provide you with full service - including pre-consultation and planning, technology development and implementation, operational resource integration, marketing promotion, website maintenance and operation. Support and services."
+    },
+
+    "E-COMMERCE-INTRO-LINE4-TEXT": {
+        "zh": "我们也能基于客户不同行业的需求提供全面个性化的定制服务，使企业的系统完全能够和线下进行整合，保证满足客户的运营所需，并提供持续的技术支持与服务。",
+        "en": "We can also based on the needs of different industries to provide customers a comprehensive personalized customization services to enable enterprises to fully and line system integration to ensure that meet customer operational needs and provide ongoing technical support and services."
+    },
+
+    "E-COMMERCE-INTRO-LINE5-TEXT": {
+        "zh": "我们秉承全方位提供服务的理念，在前期咨询、市场调研，系统设计与开发、系统集成与对接、硬件采购与配置、网络安全、支付系统，营销推广、物流配送，售后服务等方面为客户提供全程支持与服务。",
+        "en": "We are committed to providing a comprehensive range of services in the areas of pre-consultation, market research, system design and development, system integration and docking, hardware procurement and configuration, network security, payment systems, marketing, logistics and after-sales services. Full support and services."
+    },
+
+    "IMSG-INTRODUCTION-TITLE-TEXT" : {
+        "zh": "IMSG介绍",
+        "en": "IMSG Introduction"
+    },
+    "IMSG-INTRODUCTION-LINE1-TEXT" : {
+        "zh": "全球网络管理系统IMSG（Internet Management System Globalization）是 JINO INC 2010年成立的产品线，主要为海内外大型的企业提供先进与成熟可靠的企业网站与网络咨询服务和解决方案。",
+        "en": "Internet Management System Globalization (IMSG) is a product line established by JINO INC in 2010, which provides advanced and mature enterprise websites and network consulting services and solutions for large enterprises at home and abroad."
+    },
+    "IMSG-INTRODUCTION-LINE2-TEXT" : {
+        "zh": "公司约有40多人的团队，由技术顾问，技术开发，网站分析师，系统架构师等组成，遍布在我们北京，深圳和香港的办公室。",
+        "en": "The company has a team of over 40 people, including technical consultants, technology developers, web analysts, system architects, and other offices in Beijing, Shenzhen and Hong Kong."
+    },
+
+    "SERVICE-TITLE-TEXT" : {
+        "zh": "服务",
+        "en": "Services"
+    },
+    "WEB-DEV-TEXT" : {
+        "zh": "网站开发",
+        "en": "Web Development"
+    },
+    "WEB-DEV-LINE1-TEXT" : {
+        "zh": "客户需求分析",
+        "en": "Customer needs analysis"
+    },
+    "WEB-DEV-LINE2-TEXT" : {
+        "zh": "解决方案",
+        "en": "Solutions"
+    },
+    "WEB-DEV-LINE3-TEXT" : {
+        "zh": "设计/开发/维护",
+        "en": "Design / development / maintenance"
+    },
 
 });
