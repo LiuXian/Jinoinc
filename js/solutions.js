@@ -29,14 +29,6 @@
     }
 
     function scrollSpy() {
-        $(".solutions-menu .menu-item").click(function () {
-            var hash = $(this).attr("href");
-            hash = hash.substr(hash.indexOf("#"));
-            $(".solutions-menu").fadeOut();
-            scrollToSection(hash);
-        });
-
-
         $(".solutions-dropdown a").click(function () {
             var hash = $(this).attr("href");
             hash = hash.substr(hash.indexOf("#"));

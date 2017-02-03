@@ -5,13 +5,6 @@
     });
 
     function scrollSpy() {
-        $(".about-menu .menu-item").click(function () {
-            var hash = $(this).attr("href");
-            hash = hash.substr(hash.indexOf("#"));
-            $(".about-menu").fadeOut();
-            scrollToSection(hash);
-        });
-
         $(".about-us-dropdown a").click(function () {
             var hash = $(this).attr("href");
             hash = hash.substr(hash.indexOf("#"));
