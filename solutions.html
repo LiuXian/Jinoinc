@@ -312,6 +312,110 @@
    
 </div>
 
+<!-- Button trigger modal -->
+<button id="contact-modal-btn" type="button" class="btn btn-primary btn-lg contact-us-btn" >
+    <span class="CONTACT-US-RIGHT-BOTTOM"></span>
+</button>
+
+<!-- Modal -->
+<div class="modal-contactus modal contact-us-modal fade right" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">
+                    <span class="CONTACT-US-MODAL-TITLE-TEXT"></span>
+                </h4>
+            </div>
+            <div class="modal-body">
+                <form method="post" action="contact.php" name="send" id="send">
+                    <input type="hidden" value="" name="urlInfo" id="urlInfo">
+                    <p class="blue">请填写以下表格及电子邮件方式联系我们</p>
+                    <div class="form-group">
+                        <label class="control-label" >
+                            <span class="CONTACT-US-MODAL-USERNAME-TEXT"></span>
+                        </label>
+                        <input class="form-control" type="text" id="userName" value="" name="userName"/>
+                        <span class="err-msg" id="userNameMessage"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label" >
+                            <span class="CONTACT-US-MODAL-MAIL-TEXT"></span>
+                        </label>
+                        <input class="form-control" type="text" id="email" value="" maxlength="50" size="20" name="email"/>
+                        <span class="err-msg" id="emailMessage"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label" >
+                            <span class="CONTACT-US-MODAL-CONTACT-ADDR-TEXT"></span>
+                        </label>
+                        <input class="form-control" type="text" id="address" value="" maxlength="50" size="20"
+                               name="address"/>
+                        <span class="err-msg" id="addressMessage"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label" >
+                            <span class="CONTACT-US-MODAL-COMPANY-ADDR-TEXT"></span>
+                        </label>
+                        <input class="form-control" type="text" id="company" value="" maxlength="50" size="20"
+                               name="company"/>
+                        <span class="err-msg" id="companyMessage"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label" >
+                            <span class="CONTACT-US-MODAL-OFFICE-TEL-TEXT"></span>
+                        </label>
+                        <input class="form-control" type="text" id="phone" value="" maxlength="30" size="20"
+                               name="phone">
+                        <span class="err-msg" id="phoneMessage"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label" >
+                            <span class="CONTACT-US-MODAL-FAX-TEXT"></span>
+                        </label>
+                        <input class="form-control" type="text" id="fax" value="" name="fax"/>
+                        <span class="err-msg" id="faxMessage"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label" >
+                            <span class="CONTACT-US-MODAL-ADVISORY-CONTENT-TEXT"></span>
+                        </label>
+                        <textarea class="form-control" name="question" cols="" rows="" id="question"></textarea>
+                        <span class="err-msg" id="questionMessage"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label" >
+                            <span class="CONTACT-US-MODAL-CAPTCHA-TEXT"></span>
+                        </label>
+                        <input class="form-control" type="text" name="captcha">
+                        <img src="captcha.php" id="captcha">
+                        <td class="blue change-captcha"><a href="javascript:void(0)">
+                            <span class="CAPTCHA-REFRE-TEXT"></span>
+                        </a></td>
+                        <span class="err-msg" id="captchaMessage"></span>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button id="contact-modal-cancel" type="button" class="btn btn-primary">
+                    <span class="CANCEL-BTN-TEXT"></span>
+                </button>
+                <button id="contact-modal-submit" type="button" class="btn btn-default" >
+                    <span class="SUBMIT-BTN-TEXT"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/smoothscroll.js"></script>
@@ -319,6 +423,7 @@
 <script src="i18n/solutions-i18n.js"></script>
 <script src="js/i18n.js"></script>
 <script src="js/common.js"></script>
+<script src="js/contactModal.js"></script>
 <script src="js/solutions.js"></script>
 </body>
 </html>

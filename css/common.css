@@ -44,30 +44,15 @@ a:hover{
     color: red;
 }
 
+.modal.fade:not(.in).right .modal-dialog {
+    -webkit-transform: translate3d(25%, 0, 0);
+    transform: translate3d(25%, 0, 0);
+}
+
 .contact-us-modal {
     width: 600px;
     left: 100%;
     margin-left: -600px;
-    -webkit-transition:all 1s ease;
-    -moz-transition:all 1s ease;
-    -o-transition:all 1s ease;
-    -ms-transition:all 1s ease;
-    transition:all 1s ease;
-    -moz-transform: translateX(800px);
-    -webkit-transform: translateX(800px);
-    -o-transform: translateX(800px);
-    -ms-transform: translateX(800px);
-    transform: translateX(800px);
-    opacity: 0.8;
-}
-
-.contact-modal-slide-up {
-    -moz-transform: translateX(0px);
-    -webkit-transform: translateX(0px);
-    -o-transform: translateX(0px);
-    -ms-transform: translateX(0px);
-    transform: translateX(0px);
-    opacity: 1;
 }
 
 .modal-content{
