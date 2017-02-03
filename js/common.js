@@ -166,7 +166,6 @@ function scrollToSection(hash) {
     var hashObj = parseHash(hash);
 
     if($("#" + hashObj.section).length > 0) {
-        console.log($("#" + hashObj.section).offset().top);
         $('html, body').animate({
             scrollTop: $("#" + hashObj.section).offset().top - 100
         }, 500);
