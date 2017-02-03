@@ -57,6 +57,7 @@ I18N.prototype.repaceLink = function (lang) {
 
         if((originHref != undefined) && (originHref != null)) {
             originHref = originHref.replace(/lang=zh/g, "lang=" + lang);
+            originHref = originHref.replace(/lang=en/g, "lang=" + lang);
             $(this).attr("href", originHref);
         }
     })
