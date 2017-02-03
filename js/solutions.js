@@ -1,6 +1,8 @@
 (function ($) {
     $(document).ready(function () {
         solutionIconShow();
+        scrollToSection();
+        scrollSpy();
     });
 
     function solutionIconShow() {
@@ -16,8 +18,6 @@
             var ecommerceOffsetTop = $eCommerceContainer.offset().top;
             var windowHeight = $(window).height();
 
-            console.log((imsgOffsetTop - scrollTop));
-
             if(!$imsgContainer.hasClass("normal") && ((imsgOffsetTop - scrollTop) < windowHeight)) {
                 $imsgContainer.addClass("normal");
             }
@@ -28,5 +28,10 @@
         });
     }
 
-
+    function scrollSpy() {
+        $(".solutions-menu .menu-item").click(function () {
+            scrollToSection();
+        });
+    }
+    
 })(jQuery);

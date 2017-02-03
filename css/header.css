@@ -92,6 +92,31 @@ span.lang-switcher{
     background-color: #34373c;
 }
 
+.nav-menu {
+    position: fixed;
+    top: 65px;
+    background: white;
+    width: 100%;
+    z-index: 1040;
+    padding: 0px;
+    text-align: center;
+}
+
+.nav-menu .menu-item {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+}
+
+.solutions-menu {
+    display: none;
+}
+
+.about-menu {
+    display: none;
+}
+
+
 @media (max-width: 768px) {
     .row {
         padding: 0px;

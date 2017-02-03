@@ -2,6 +2,7 @@
     $(document).ready(function () {
         learnMoreScroll();
         productIconShow();
+        $.cookie("example", "foo");
     });
 
     function searchHandler() {

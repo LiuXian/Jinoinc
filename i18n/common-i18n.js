@@ -16,8 +16,8 @@ var langSwitch = {
         "en" : "Contact us"
     },
     "COMPANY-NAME-TEXT" : {
-        "zh" : "北京吉诺恒扬网络技术有限公司",
-        "en" : "Jino International Limited"
+        "zh" : "Test test test",
+        "en" : "Test test test"
     },
     "BOOGU-MENU-TEXT" : {
         "zh" : "布谷",

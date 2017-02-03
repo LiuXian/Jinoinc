@@ -14,7 +14,7 @@
 <body class="solutions">
 
 <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid nav-container container-fluid">
+    <div class="container-fluid nav-container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
                     aria-expanded="false" aria-controls="navbar">
@@ -31,20 +31,20 @@
         <div id="navbar" class="navbar-collapse collapse">
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html" class="HOME-TEXT"></a></li>
+                <li class="selected"><a href="index.html" class="HOME-TEXT"></a></li>
 
-                <li class="dropdown selected">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                <li class="dropdown">
+                    <a class="dropdown-toggle solutions-menu-link" data-toggle="dropdown" role="button" aria-haspopup="true"
                        aria-expanded="false"><span class="SOLUTIONS-TEXT"></span> <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="solutions.html" class="BOOGU-MENU-TEXT"></a></li>
-                        <li><a href="solutions.html" >IMSG</a></li>
-                        <li><a href="solutions.html" >E-commerce</a></li>
+                        <li><a href="solutions.html#lang=zh&section=boogu" class="BOOGU-MENU-TEXT"></a></li>
+                        <li><a href="solutions.html#lang=zh&section=imsg" >IMSG</a></li>
+                        <li><a href="solutions.html#lang=zh&section=e-commerce" >E-commerce</a></li>
                     </ul>
                 </li>
 
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                    <a href="#" class="dropdown-toggle about-menu-link" data-toggle="dropdown" role="button" aria-haspopup="true"
                        aria-expanded="false"><span class="ABOUT-US-TEXT"></span><span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="contacts.html" class="COMPANY-INTRO-TEXT"></a></li>
@@ -54,12 +54,13 @@
 
                 <li><a href="contacts.html" class="CONTACT-US-TEXT"></a></li>
 
-                <div class="navbar-form navbar-left" role="search">
+                <li><div class="navbar-form navbar-left" role="search">
                     <div class="form-group search-container">
                         <input type="text" class="form-control search-input-box" placeholder="Search">
                         <div class="glyphicon glyphicon-search search-input-button"></div>
                     </div>
                 </div>
+                </li>
 
                 <li>
                     <a>
@@ -72,9 +73,22 @@
     </div>
 </nav>
 
+<div class="nav-menu solutions-menu">
+    <a class="menu-item BOOGU-MENU-TEXT" href="solutions.html#lang=zh&section=boogu" ></a>
+    <a class="menu-item" href="solutions.html#lang=zh&section=imsg">IMSG</a>
+    <a class="menu-item" href="solutions.html#lang=zh&section=e-commerce">E-commerce</a>
+</div>
+
+<div class="nav-menu about-menu">
+    <a class="menu-item" href="contacts.html#lang=zh&section=about-us" >About us</a>
+    <a class="menu-item" href="contacts.html#lang=zh&section=business-contact" >Business contact </a>
+    <a class="menu-item" href="contacts.html#lang=zh&section=jobs" >Jobs</a>
+    <a class="menu-item" href="contacts.html#lang=zh&section=privacy" >Privacy</a>
+</div>
+
 <div class="solution-content">
 <div class="solution-content1"></div>
-<div class="container-solutions " id="boogu">
+<div class="container-solutions" id="boogu">
     <div class="solutions-image-container" id="boogu-container" >
         <img class='solutions-image-icon bugu' src="images/bugu.svg">
         <h3 class="SOLUTION-TITLE-BOOGU-TEXT"></h3>
