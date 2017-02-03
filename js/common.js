@@ -64,6 +64,7 @@
 
     function solutionLinkHoverHander() {
         if($(window).width() < 768) {
+            $(".solutions-menu-link").unbind('mouseenter mouseleave');
             return void 0;
         }
 
@@ -95,6 +96,7 @@
 
     function aboutLinkHoverHander() {
         if($(window).width() < 768) {
+            $(".about-menu-link").unbind('mouseenter mouseleave');
             return void 0;
         }
 
@@ -159,12 +161,14 @@ function makeHash(res) {
     return result
 }
 
-function scrollToSection() {
-    var hashObj = parseHash(window.location.hash);
+function scrollToSection(hash) {
+    var hash = hash || window.location.hash;
+    var hashObj = parseHash(hash);
 
     if($("#" + hashObj.section).length > 0) {
+        console.log($("#" + hashObj.section).offset().top);
         $('html, body').animate({
-            scrollTop: $("#" + hashObj.section).offset().top
+            scrollTop: $("#" + hashObj.section).offset().top - 100
         }, 500);
     }
 }

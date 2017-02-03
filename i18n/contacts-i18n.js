@@ -387,7 +387,7 @@ langSwitch = $.extend(langSwitch, {
     },
     "FRONT-END-ENGINEER-REQUIREMENT-PART1-TEXT": {
         "zh": "有过大型网站前端代码编写经验",
-        "en": "Experience in big website"
+        "en": "Experience in big website development"
     },
     "FRONT-END-ENGINEER-REQUIREMENT-PART2-TEXT": {
         "zh": "精通HTML/CSS ",
@@ -416,7 +416,7 @@ langSwitch = $.extend(langSwitch, {
     },
 
     "PHP-SENIOR-ENGINEER-REQUIREMENT-PART3-TEXT": {
-        "zh": "熟练HTML\DIV\ CSS熟练掌握数据库结构设计、索引的使用与SQL语句的优化 ",
+        "zh": "熟练HTML \DIV\ CSS熟练掌握数据库结构设计、索引的使用与SQL语句的优化 ",
         "en": "Skilled HTML \ DIV \ CSS proficiency in database structure design, the use of the index and SQL statement optimization"
     },
 

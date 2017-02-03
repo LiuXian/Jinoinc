@@ -28,17 +28,17 @@ langSwitch = $.extend(langSwitch, {
 
     "BOOGU-WEIBO-MANAGEMENT-CONTENT-TEXT" : {
         "zh": "提供企业社会化媒体一站式管理、分析的整体解决方案与定制服务",
-        "en": "We provide the high efficient ENTERPRISE SOLUTIONS:SMCC（Social Media command center）"
+        "en": "Provide one-stop management of social media companies, the overall analysis of solutions and customized services"
     },
 
     "BOOGU-MEDIA-AUDIT-TITLE-TEXT": {
         "zh": "布谷舆情监测系统",
-        "en": ""
+        "en": "Boogu public opinion monitoring system"
     },
 
     "BOOGU-MEDIA-AUDIT-CONTENT-TEXT": {
         "zh": "通过对互联网海量信息自动抓取、自动分类聚类、主题检测、专题聚焦，实现网络舆情监测和新闻专题追踪",
-        "en": ""
+        "en": "Through the mass of the Internet information automatically crawl, automatic classification and clustering, theme detection, thematic focus, to achieve network monitoring and public opinion special topic tracking"
     },
 
     "ECOMMERCE-CONTENT-TEXT": {

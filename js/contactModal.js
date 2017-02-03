@@ -29,42 +29,45 @@
     }
 
     function saveSend() {
-        if (!checkStringName('userName', '姓名不能为空'))
+        var i18n = new I18N();
+        var lang = i18n.getLang();
+
+        if (!checkStringName('userName', langSwitch["CONTACT-US-MODAL-USERNAME-EMPTY-ERROR-TEXT"][lang]))
             return false;
-        if (!checkStringName('email', 'E-mail不能为空')) {
+        if (!checkStringName('email', langSwitch["CONTACT-US-MODAL-EMAIL-EMPTY-ERROR-TEXT"][lang])) {
             return false;
         } else {
             var reEmail = /(\S)+[@]{1}(\S)+[.]{1}(\w)+/;
             if (!reEmail.test(jQuery('#email').val())) {
-                jQuery('#emailMessage').html('E-mail必须符合要求');
+                jQuery('#emailMessage').html(langSwitch["CONTACT-US-MODAL-EMAIL-FORMAT-ERROR-TEXT"][lang]);
                 jQuery('#email').focus();
                 return false;
             } else {
                 jQuery('#emailMessage').html('');
             }
         }
-        if (!checkStringName('address', '联系地址不能为空'))
+        if (!checkStringName('address', langSwitch["CONTACT-US-MODAL-CONTACT-ADDR-EMPTY-ERROR-TEXT"][lang]))
             return false;
-        if (!checkStringName('company', '公司名称不能为空'))
+        if (!checkStringName('company', langSwitch["CONTACT-US-MODAL-COMPANY-ADDR-EMPTY-ERROR-TEXT"][lang]))
             return false;
-        if (!checkStringName('phone', '办公电话不能为空')) {
+        if (!checkStringName('phone', langSwitch["CONTACT-US-MODAL-OFFICE-TEL-ERROR-TEXT"][lang])) {
             return false;
         } else {
             var reg = /[\u4e00-\u9fa5|a-zA-Z]*/ig;
             if (jQuery('#phone').val().length < 8 || jQuery('#phone').val().match(reg).length < jQuery('#phone').val().length) {
-                jQuery('#phoneMessage').html('请输入正确的联系电话');
+                jQuery('#phoneMessage').html(langSwitch["CONTACT-US-MODAL-OFFICE-TEL-FORMAT-ERROR-TEXT"][lang]);
                 jQuery('#phone').focus();
                 return false;
             } else {
                 jQuery('#phoneMessage').html('');
             }
         }
-        if (!checkStringName('fax', 'fax不能为空')) {
+        if (!checkStringName('fax', langSwitch["CONTACT-US-MODAL-FAX-EMPTY-ERROR-TEXT"][lang])) {
             return false;
         } else {
             var rex = /^(0{1})([^06]{1})([\d]{1,2})(\-{1})([\d]{7})$/
             if (!rex.test(jQuery('#fax').val())) {
-                jQuery('#faxMessage').html('fax必须符合要求');
+                jQuery('#faxMessage').html(langSwitch["CONTACT-US-MODAL-FAX-FORMAT-ERROR-TEXT"][lang]);
                 jQuery('#fax').focus();
                 return false;
             } else {
@@ -73,7 +76,7 @@
         }
 
         if (!jQuery('#question').val().match(/^\s*$/g) && jQuery('#question').val().length > 140) {
-            jQuery('#questionMessage').html('最多字数是140字');
+            jQuery('#questionMessage').html(langSwitch["AT-MOST-140-WORDS-ERROR-TEXT"][lang]);
             jQuery('#question').focus();
             return false;
         } else {
@@ -82,7 +85,7 @@
 
         var captcha = document.getElementsByName('captcha');
         if (captcha[0].value == '') {
-            $('#captchaMessage').html('验证码不能为空');
+            $('#captchaMessage').html(langSwitch["CONTACT-US-MODAL-CAPTCHA-EMPTY-ERROR-TEXT"][lang]);
             return false;
         }
 
@@ -95,7 +98,7 @@
             success: function (data) {
                 if (data == false) {
                     $('#captcha').attr('src', 'captcha.php?t=' + Math.random());
-                    $('#captchaMessage').html('验证码不正确');
+                    $('#captchaMessage').html(langSwitch["CONTACT-US-MODAL-CAPTCHA-ERROR-TEXT"][lang]);
                 }
                 else {
                     $("#contactModal").modal('hide');

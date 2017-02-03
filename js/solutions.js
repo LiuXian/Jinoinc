@@ -30,7 +30,26 @@
 
     function scrollSpy() {
         $(".solutions-menu .menu-item").click(function () {
-            scrollToSection();
+            var hash = $(this).attr("href");
+            hash = hash.substr(hash.indexOf("#"));
+            scrollToSection(hash);
+        });
+
+
+        $(".solutions-dropdown a").click(function () {
+            var hash = $(this).attr("href");
+            hash = hash.substr(hash.indexOf("#"));
+            scrollToSection(hash);
+        });
+
+        $(".links a").click(function () {
+            var href = $(this).attr("href");
+            var keyword = "solutions.html";
+
+            if(href.indexOf(keyword) !== -1) {
+                var hash = href.substr(href.indexOf("#"));
+                scrollToSection(hash);
+            }
         });
     }
     

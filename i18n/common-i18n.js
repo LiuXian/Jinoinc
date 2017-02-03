@@ -110,6 +110,10 @@ var langSwitch = {
         "zh": "公司地址",
         "en": "company address"
     },
+    "CONTACT-US-MODAL-COMPANY-ADDR-EMPTY-ERROR-TEXT" : {
+        "zh": "公司地址不能为空",
+        "en": "company address can not be empty"
+    },
     "CONTACT-US-MODAL-OFFICE-TEL-TEXT" : {
         "zh": "办公电话",
         "en": "office tel"
@@ -138,6 +142,11 @@ var langSwitch = {
         "zh": "咨询内容",
         "en": "content"
     },
+    "AT-MOST-140-WORDS-ERROR-TEXT" : {
+        "zh": "最多字数是140字",
+        "en": "At most 140 words"
+    },
+
     "CONTACT-US-MODAL-CAPTCHA-TEXT" : {
         "zh": "验证码",
         "en": "CAPTCHA"
