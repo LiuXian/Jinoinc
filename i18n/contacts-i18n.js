@@ -288,17 +288,17 @@ langSwitch = $.extend(langSwitch, {
     },
     "TEAMSITE-PM-REQUIREMENT-PART1-TEXT": {
         "zh": "TeamSite项目经理",
-        "en": "TeamSite PM"
+        "en": "TeamSite project manager"
     },
 
     "TEAMSITE-PM-REQUIREMENT-PART2-TEXT": {
         "zh": "管理超过一个项目",
-        "en": "TeamSite PM"
+        "en": "Manage more than one project"
     },
 
     "TEAMSITE-PM-REQUIREMENT-PART3-TEXT": {
         "zh": "高级职位",
-        "en": "TeamSite PM"
+        "en": "Senior positions"
     },
 
     "TEAMSITE-ENGINEER-TITLE-PART3-TEXT": {
@@ -434,9 +434,9 @@ langSwitch = $.extend(langSwitch, {
         "zh": "名",
         "en": "Persons"
     },
-    "CONTACT-US-TEXT": {
+    "HR-CONTACT-US-TEXT": {
         "zh": "联系我们",
-        "en": "contact us"
+        "en": "Contact us"
     },
     "CONTACT-FIELD-TEXT": {
         "zh": "联系人: ",

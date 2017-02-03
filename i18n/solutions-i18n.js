@@ -280,7 +280,7 @@ langSwitch = $.extend(langSwitch, {
 
     "EASY-TO-USE-SAFE-LINE1-TEXT": {
         "zh": "操作简单",
-        "en": "easy to use"
+        "en": "Easy to use"
     },
 
     "EASY-TO-USE-SAFE-LINE2-TEXT": {
