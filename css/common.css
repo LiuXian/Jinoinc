@@ -44,16 +44,6 @@ a:hover{
     color: red;
 }
 
-.modal-dialog {
-    margin-bottom: 0px;
-}
-
-.contact-us-btn {
-    position: fixed;
-    right: 0px;
-    bottom: 0px;
-}
-
 .contact-us-modal {
     width: 600px;
     left: 100%;
@@ -78,6 +68,97 @@ a:hover{
     -ms-transform: translateX(0px);
     transform: translateX(0px);
     opacity: 1;
+}
+
+.modal-content{
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+}
+#contact-modal-submit{
+    float: left;
+}
+
+#contact-modal-submit:hover{
+    background: #EE852b;
+    color: #fff;
+    transition: background 0.3s
+}
+
+#contact-modal-cancel{
+    float: left;
+    background: #242f33;
+}
+
+.modal-dialog {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.contact-us-btn {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+#contact-modal-btn{
+    background: #242f33;
+}
+
+.modal-contactus .close {
+    margin-right: 10px;
+    font-size: 40px;
+    color: #34373c;
+    opacity: 0.8;
+    font-family: opensans;
+    text-shadow: none;
+    font-weight: lighter;
+}
+
+.modal-contactus .close:hover{
+    color: #EE852b;
+    transition: color 0.3s;
+}
+
+.modal-contactus .modal-content{
+    background: #f3f6fa;
+
+}
+
+.modal-contactus .modal-header {
+    padding-bottom: 0;
+    border-bottom: none;
+    padding-left: 20px;
+}
+
+.modal-contactus .modal-body{
+    padding: 10px 20px;
+}
+
+.modal-contactus .modal-body p {
+    color: #EE852b;
+    font-size: 11px;
+    margin-top: 0;
+}
+
+.modal-contactus .modal-body input {
+    background: transparent;
+    width: 98%;
+    margin-bottom: 15px;
+}
+
+.modal-contactus .modal-body label {
+    color: #555;
+   }
+
+.modal-contactus .modal-body textarea {
+    background: transparent;
+    width: 98%;
+}
+
+.modal-contactus .modal-footer {
+    padding-top: 0px;
+    border: none;
 }
 
 @media (max-width: 768px) {

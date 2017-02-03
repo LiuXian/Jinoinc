@@ -10,34 +10,9 @@ input.form-control.search-input-box {
     margin-right: 6px;
 }
 
-.modal-content {
-    border-radius: 0;
-    box-shadow: none;
-    border: none;
-}
-
-#contact-modal-submit {
-    float: left;
-}
-
-#contact-modal-cancel {
-    float: left;
-}
-
 input.form-control.search-input-box{
     margin-bottom: 6px;
     margin-right: 6px;
-}
-.modal-content{
-    border-radius: 0;
-    box-shadow: none;
-    border: none;
-}
-#contact-modal-submit{
-    float: left;
-}
-#contact-modal-cancel{
-    float: left;
 }
 
 h2.SOLUTIONS-TEXT.text-center{

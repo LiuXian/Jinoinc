@@ -14,9 +14,10 @@
 .highlight{
   color: #2977a8;
 }
-.line{
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
+.line {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    padding-top: 20px;
 }
 
 .solution-table{
