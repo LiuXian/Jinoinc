@@ -2,9 +2,6 @@
     $(document).ready(function () {
         searchHandler();
         navHandler();
-        solutionLinkHoverHander();
-        aboutLinkHoverHander();
-        windowResizeHandler();
     });
 
     function searchHandler() {
@@ -59,79 +56,6 @@
         });
     }
 
-    var solutionFadeOutTimeout = void 0;
-    var contactFadeOutTimeout = void 0;
-
-    function solutionLinkHoverHander() {
-        if($(window).width() < 768) {
-            $(".solutions-menu-link").unbind('mouseenter mouseleave');
-            return void 0;
-        }
-
-        $(".solutions-menu-link").hover(function() {
-            clearTimeout(solutionFadeOutTimeout);
-            $(".about-menu").hide();
-            $(".solutions-menu").fadeIn();
-        }, function () {
-            solutionFadeOutTimeout = setTimeout(function() {
-                $(".solutions-menu").fadeOut();
-            }, 2000);
-        });
-
-        $(".solutions-menu-link").click(function () {
-            if($(".solutions-menu").is(":visible") == true) {
-                return false;
-            }
-        });
-
-        $(".solutions-menu").hover(function() {
-            clearTimeout(solutionFadeOutTimeout);
-        }, function () {
-            solutionFadeOutTimeout = setTimeout(function() {
-                $(".solutions-menu").fadeOut();
-            }, 2000);
-        });
-
-    }
-
-    function aboutLinkHoverHander() {
-        if($(window).width() < 768) {
-            $(".about-menu-link").unbind('mouseenter mouseleave');
-            return void 0;
-        }
-
-        $(".about-menu-link").hover(function() {
-            clearTimeout(contactFadeOutTimeout);
-            $(".solutions-menu").hide();
-            $(".about-menu").fadeIn();
-        }, function () {
-            contactFadeOutTimeout = setTimeout(function() {
-                $(".about-menu").fadeOut();
-            }, 2000);
-        });
-
-        $(".about-menu-link").click(function () {
-            if($(".about-menu").is(":visible") == true) {
-                return false;
-            }
-        });
-
-        $(".about-menu").hover(function() {
-            clearTimeout(contactFadeOutTimeout);
-        }, function () {
-            contactFadeOutTimeout = setTimeout(function() {
-                $(".about-menu").fadeOut();
-            }, 2000);
-        });
-
-    }
-    
-    function windowResizeHandler() {
-        $(window).resize(function() {
-            solutionLinkHoverHander();
-            aboutLinkHoverHander();
-        });
-    }
 })(jQuery);
 
 function parseHash(hashStr) {
