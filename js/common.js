@@ -146,11 +146,25 @@ function parseHash(hashStr) {
     return result;
 }
 
+function makeHash(res) {
+    var result = "";
+    if((res.lang != undefined) && (res.lang != null)) {
+        result = result + "lang=" + res.lang;
+    }
+
+    if((res.section != undefined) && (res.section != null)) {
+        result = result + "&section=" + res.section;
+    }
+
+    return result
+}
+
 function scrollToSection() {
     var hashObj = parseHash(window.location.hash);
 
-    $('html, body').animate({
-        scrollTop: $("#" + hashObj.section).offset().top
-    }, 500);
-
+    if($("#" + hashObj.section).length > 0) {
+        $('html, body').animate({
+            scrollTop: $("#" + hashObj.section).offset().top
+        }, 500);
+    }
 }

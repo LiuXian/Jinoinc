@@ -13,6 +13,7 @@ I18N.prototype.init = function () {
     var i18n = this;
     var lang = i18n.getLang();
     i18n.repaceText(lang);
+    i18n.repaceLink(lang);
 }
 
 I18N.prototype.langSwitchHandler = function () {
@@ -22,16 +23,21 @@ I18N.prototype.langSwitchHandler = function () {
     $(".lang-switcher").click(function () {
         $(".lang-switcher").removeClass("active");
         $(this).addClass("active");
-        window.location.hash = $(this).attr("lang");
+        var targetlang = $(this).attr("lang");
+        var res = parseHash(window.location.hash);
+        res.lang = targetlang;
+        window.location.hash = makeHash(res);
         var lang = i18n.getLang();
         i18n.repaceText(lang);
+        i18n.repaceLink(lang);
     });
 }
 
 I18N.prototype.getLang = function () {
-    var langHash = window.location.hash;
+    var res = parseHash(window.location.hash);
+    var langHash = res.lang;
 
-    if(langHash != "#en") {
+    if(langHash != "en") {
         return "zh";
     }
 
@@ -43,4 +49,15 @@ I18N.prototype.repaceText = function (lang) {
         var text = langSwitch[textClass][lang];
         $("." + textClass).text(text);
     }
+}
+
+I18N.prototype.repaceLink = function (lang) {
+    $("a").each(function() {
+        var originHref = $(this).attr("href");
+
+        if((originHref != undefined) && (originHref != null)) {
+            originHref = originHref.replace(/lang=zh/g, "lang=" + lang);
+            $(this).attr("href", originHref);
+        }
+    })
 }
