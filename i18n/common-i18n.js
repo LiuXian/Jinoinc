@@ -69,6 +69,11 @@ var langSwitch = {
         "en": "Advice"
     },
     // contact us modal start
+    "CONTACT-US-DESCRIPTION-TEXT" : {
+        "zh" : "请填写以下表格及电子邮件方式联系我们",
+        "en" : "Please fill in the form below and contact us by e-mail"
+    },
+
     "CONTACT-US-MODAL-TITLE-TEXT" : {
         "zh": "联系我们",
         "en": "Contact us"

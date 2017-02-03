@@ -351,5 +351,56 @@ langSwitch = $.extend(langSwitch, {
         "zh": "设计/开发/维护",
         "en": "Design / development / maintenance"
     },
+    "LOCALIZATION-CUSTOMIZATION-TITLE-TEXT" : {
+        "zh" : "本地化定制",
+        "en" : "Localization customization"
+    },
+    "LOCALIZATION-CUSTOMIZATION-LINE1-TEXT" : {
+        "zh" : "工作流管理",
+        "en" : "Workflow Management"
+    },
+    "LOCALIZATION-CUSTOMIZATION-LINE2-TEXT" : {
+        "zh" : "多语言翻译",
+        "en" : "Multilingual translation"
+    },
 
+    "SEO-TEXT" : {
+        "zh" : "搜索引擎优化",
+        "en" : "Search Engine Optimization"
+    },
+
+    "PAGE-SPECIFICATION-TEXT" : {
+        "zh" : "页面规范",
+        "en" : "Page Specification"
+    },
+
+    "SEO-ANALYSIS-TEXT" : {
+        "zh" : "SEO分析",
+        "en" : "SEO analysis"
+    },
+
+    "TECHNOLOGY-TEXT" : {
+        "zh" : "技术",
+        "en" : "Technology"
+    },
+
+    "OPERATING-SYSTEM-TEXT" : {
+        "zh" : "操作系统",
+        "en" : "Operating system"
+    },
+
+    "SERVER-TEXT" : {
+        "zh" : "服务器",
+        "en" : "Page Specification"
+    },
+
+    "DB-TEXT" : {
+        "zh" : "数据库",
+        "en" : "Page Specification"
+    },
+
+    "LANGUAGE-TEXT" : {
+        "zh" : "语言",
+        "en" : "Language"
+    }
 });

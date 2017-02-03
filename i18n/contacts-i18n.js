@@ -1,5 +1,25 @@
 var langSwitch = langSwitch || {}
 langSwitch = $.extend(langSwitch, {
+    "ABOUT-US-SECION-TITLE-TEXT" : {
+        "zh" : "关于我们",
+        "en" : "About us"
+    },
+
+    "BUSINESS-CONTACT-SECION-TITLE-TEXT" : {
+        "zh" : "业务联系",
+        "en" : "Business Contact"
+    },
+
+    "JOBS-SECION-TITLE-TEXT" : {
+        "zh" : "招纳贤士",
+        "en" : "Jobs"
+    },
+
+    "PRIVACY-SECION-TITLE-TEXT" : {
+        "zh" : "隐私条款",
+        "en" : "Privacy"
+    },
+
     "CONTACT-US-LINE1-TEXT": {
         "zh": "北京吉诺恒扬网络技术有限公司",
         "en": "Beijing Jino Technology Co., Ltd."
