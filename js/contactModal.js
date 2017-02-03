@@ -2,9 +2,15 @@
     $(document).ready(function () {
         contactModalAnchor();
         contactModalHander();
+        refreshCaptchaHandler();
     });
 
-
+    function refreshCaptchaHandler() {
+        $(".refresh-captcha").click(function () {
+            $('#captcha').attr('src', 'captcha.php?t=' + Math.random());
+        })
+    }
+    
     function contactModalAnchor() {
         $("#contactModal").modal({
             show: false,
