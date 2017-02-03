@@ -34,6 +34,8 @@
         $("#contact-modal-cancel").click(function () {
             $("#contactModal").modal('hide');
         });
+
+        
     }
 
     function saveSend() {
