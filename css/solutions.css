@@ -34,11 +34,11 @@
     width: 180px;
     height: 180px;
     border-radius: 180px;
-    -webkit-transition:all 1s ease-in-out;
-    -moz-transition:all 1s ease-in-out;
-    -o-transition:all 1s ease-in-out;
-    -ms-transition:all 1s ease-in-out;
-    transition:all 1s ease-in-out;
+    -webkit-transition:transform 1s ease-in-out;
+    -moz-transition:transform 1s ease-in-out;
+    -o-transition:transform 1s ease-in-out;
+    -ms-transition:transform 1s ease-in-out;
+    transition:transform 1s ease-in-out;
     -moz-transform: translateY(20px);
     -webkit-transform: translateY(20px);
     -o-transform: translateY(20px);

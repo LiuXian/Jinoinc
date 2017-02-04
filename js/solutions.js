@@ -1,5 +1,6 @@
 (function ($) {
     $(document).ready(function () {
+        resizeIcon();
         solutionIconShow();
         scrollToSection();
         scrollSpy();
@@ -43,6 +44,32 @@
                 var hash = href.substr(href.indexOf("#"));
                 scrollToSection(hash);
             }
+        });
+    }
+
+    $(window).resize(function() {
+        resizeIcon();
+    });
+
+    function resizeIcon() {
+        var times = 0.13;
+        var windowWidth = $(window).width();
+
+        if(windowWidth < 992) {
+            times = 0.2;
+        }
+
+        if(windowWidth < 675) {
+            times = 0.4;
+        }
+
+        var backWidth = windowWidth*times;
+        $(".solutions-image-container").css({
+            "margin-left": 0 - backWidth/2,
+            "width" : backWidth,
+            "height": backWidth,
+            "border-radius": backWidth,
+            "-webkit-border-radius": backWidth
         });
     }
     
