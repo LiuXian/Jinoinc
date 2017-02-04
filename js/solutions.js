@@ -59,7 +59,11 @@
             times = 0.2;
         }
 
-        if(windowWidth < 675) {
+        if(windowWidth < 600) {
+            times = 0.25;
+        }
+
+        if(windowWidth < 475) {
             times = 0.4;
         }
 
