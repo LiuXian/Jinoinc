@@ -1,10 +1,4 @@
-.row1{
-    border-bottom: none;
-}
-.row2 {
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
+
 input.form-control.search-input-box {
     margin-bottom: 6px;
     margin-right: 6px;
@@ -169,7 +163,7 @@ h2.SOLUTIONS-TEXT.text-center{
     }
 
     .jum-top-banner h2{
-        font-size: 26px;
+        font-size: 22px;
 
     }
     .jum-top-banner p{
@@ -178,16 +172,26 @@ h2.SOLUTIONS-TEXT.text-center{
     }
 
     .bugu-icon{
-        width: 118px !important;
+        width: 36% !important;
     }
     .col-sm-6.col-md-6 img{
-        height: 92px;
+        width: 20%;
         margin-bottom: 10px;
     }
     .col-sm-6.col-md-6 h3{
         margin-top: 0;
+        font-size: 23px;
 
     }
+    .jumbotron-learn-more{
+        width: 140px;
+    }
+
+    #contact-modal-btn {
+    font-size: 15px;
+    
+    }
+
 }
 
 @media (max-width: 748px) {
@@ -199,6 +203,7 @@ h2.SOLUTIONS-TEXT.text-center{
         display: none;
     }
 }
+
 
 @keyframes banner-icon1-show {
     from {

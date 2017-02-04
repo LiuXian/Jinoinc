@@ -1,8 +1,9 @@
 body {
-    margin-bottom: 100px;
-    margin-right: 0px;
+    margin-bottom: 0;
+    margin-right: 0;
     padding-top:100px;
     font-family: 'opensans', 微软雅黑;
+
   
 }
 h1, .h1, h2, .h2, h3, .h3{
@@ -34,6 +35,25 @@ a:hover{
     margin: 20px 0px 20px 0px;
     padding: 100px 0;
     border-bottom: 1px solid #dddddd;
+}
+
+.row1{
+    border-bottom: none;
+}
+.row2 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.row3 {
+    padding: 0;
+    margin: 0;
+    border-bottom: none;
+}
+
+ul.dropdown-menu.solutions-dropdown {
+    border: none;
+    border-radius: 0;
 }
 
 #contactModal {
@@ -87,7 +107,7 @@ a:hover{
 }
 
 #contact-modal-btn{
-    background: #242f33;
+    background: #347397;
 }
 
 .modal-contactus .close {
@@ -121,7 +141,7 @@ a:hover{
 }
 
 .modal-contactus .modal-body p {
-    color: #EE852b;
+    color: #555;
     font-size: 11px;
     margin-top: 0;
 }
@@ -144,6 +164,10 @@ a:hover{
 .modal-contactus .modal-footer {
     padding-top: 0px;
     border: none;
+}
+
+.modal-footer .btn+.btn{
+    margin-left: 10px;
 }
 
 @media (max-width: 768px) {

@@ -1,3 +1,4 @@
+
 .navbar{
     margin-bottom: 0;
     border: none;
@@ -49,6 +50,10 @@
 }
 a.navbar-brand{
     margin-top: 15px;
+}
+
+ul.nav.navbar-nav.navbar-right{
+    margin-top: 28px;
 }
 
 .lang-switch {
@@ -117,17 +122,34 @@ span.lang-switcher{
     display: none;
 }
 
+button.navbar-toggle.collapsed {
+    border-radius: 0;
+}
+
 
 @media (max-width: 768px) {
     .row {
-        padding: 0px;
+        padding: 10px 0;
     }
     .navbar.navbar-default.navbar-fixed-top .company-name {
-        display: block;
-        margin-left: 0px;
+        display: inline-block;
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .navbar.navbar-default.navbar-fixed-top img {
+    display: block;
+}
+
+    a.navbar-brand {
+    margin-top: 6px;
     }
     span.lang-switcher{
         padding-left: 0;
+    }
+    .navbar-right {
+        padding-top: 4px;
+        margin-left: -13px;
+        margin-right: -8%;
     }
 }
 
@@ -137,6 +159,16 @@ span.lang-switcher{
     }
 
     .form-control.search-input-box {
-        display: block;
+        display: inline-block;
+        float: left;
+        width: 80%;
+        margin-left: 14px;
+
     }
+}
+@media (min-width: 1024px){
+    .navbar-right{
+        margin-top: 0;
+    }
+
 }

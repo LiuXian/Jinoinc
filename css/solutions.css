@@ -63,7 +63,7 @@
 
 .solutions-image-container .solutions-image-icon {
     width: 40%;
-    margin-top: 42px;
+    margin-top: 36px;
 }
 .solutions-image-container h3{
   margin: 0;
@@ -71,9 +71,6 @@
 
 }
 
-.row1{
-  border-bottom: none;
-}
 .imsg {
     position: relative;
 }
@@ -131,6 +128,31 @@
 
 @media (max-width: 768px) {
     .container-solutions {
-        padding: 10px 5%;
+        padding: 10px 8%;
     }
+}
+
+@media (min-width: 992px){
+    .text-center1{
+        width: 33%;
+        margin-bottom: 10px;
+
+    }
+    .bugu {
+      width: 48% !important;
+      margin-top: 47px !important;
+    }
+    .solutions-image-container{
+      width: 150px;
+      height: 150px;
+      top: -72px;
+    }
+    .solutions-image-container h3{
+      font-size: 16px;
+    }
+    p.COPYRIGHT-TEXT{
+      line-height: 30px;
+      padding-bottom: 30px;
+    }
+
 }

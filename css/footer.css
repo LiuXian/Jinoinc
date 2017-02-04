@@ -9,6 +9,7 @@
 }
 p.COPYRIGHT-TEXT{
     line-height: 60px;
+    font-size: 13px;
 }
 
 @media (max-width: 768px) {
@@ -16,8 +17,4 @@ p.COPYRIGHT-TEXT{
         line-height: 30px;
     }
 }
-.row3 {
-    padding: 0;
-    margin: 0;
-    border-bottom: none;
-}
+
