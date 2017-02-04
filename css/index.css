@@ -202,6 +202,26 @@ h2.SOLUTIONS-TEXT.text-center{
     .imsg-pc {
         display: none;
     }
+
+    .banner-icon1 {
+        display: none;
+    }
+
+    .banner-icon2 {
+        display: none;
+    }
+
+    .jum-top-banner {
+        text-align: center;
+    }
+
+    .jum-top-banner h2 {
+        width: 100%;
+    }
+
+    .jum-top-banner p {
+        width: 100%;
+    }
 }
 
 
