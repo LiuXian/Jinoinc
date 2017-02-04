@@ -78,6 +78,7 @@ ul.dropdown-menu.solutions-dropdown {
     border-radius: 0;
     box-shadow: none;
     border: none;
+    height: 100%;
 }
 #contact-modal-submit{
     float: left;
@@ -97,6 +98,7 @@ ul.dropdown-menu.solutions-dropdown {
 .modal-dialog {
     margin-bottom: 0;
     margin-top: 0;
+    height: 100%;
 }
 
 .contact-us-btn {
@@ -124,9 +126,10 @@ ul.dropdown-menu.solutions-dropdown {
     transition: color 0.3s;
 }
 
-.modal-contactus .modal-content{
+.modal-contactus .modal-content, .modal-contactus .modal-header,
+.modal-contactus .modal-body,
+.modal-contactus .modal-footer{
     background: #f3f6fa;
-
 }
 
 .modal-contactus .modal-header {
