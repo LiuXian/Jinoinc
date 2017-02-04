@@ -62,7 +62,7 @@ h2.SOLUTIONS-TEXT.text-center{
 .jum-top-banner h2 {
     margin: 10px 0px;
     color: #fff;
-    font-family: "微软雅黑","Open Sans";
+    font-family: 'opensans', 微软雅黑;
     font-weight: bold;
     font-size: 35px;
     width: 50%;
@@ -72,7 +72,7 @@ h2.SOLUTIONS-TEXT.text-center{
 .jum-top-banner p {
     margin: 10px 0px;
     color: white;
-    font-family: "微软雅黑","Open Sans";
+    font-family: 'opensans', 微软雅黑;
     padding-bottom: 20px;
     font-size: 18px;
     padding-top: 10px;

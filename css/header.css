@@ -33,7 +33,7 @@
     display: inline-block;
     vertical-align: bottom;
     margin-bottom: 0px;
-    font-family: "微软雅黑","Open Sans";
+    font-family: 'opensans', 微软雅黑;
     margin-left: 15px;
     color: #34373c;
 }
