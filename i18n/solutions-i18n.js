@@ -391,12 +391,12 @@ langSwitch = $.extend(langSwitch, {
 
     "SERVER-TEXT" : {
         "zh" : "服务器",
-        "en" : "Page Specification"
+        "en" : "Server"
     },
 
     "DB-TEXT" : {
         "zh" : "数据库",
-        "en" : "Page Specification"
+        "en" : "Database"
     },
 
     "LANGUAGE-TEXT" : {
