@@ -61,4 +61,15 @@ I18N.prototype.repaceLink = function (lang) {
             $(this).attr("href", originHref);
         }
     })
+
+    var $booguSolutionImg = $("#bogu-solution-img");
+    if($booguSolutionImg.length > 0) {
+        if(lang == "en") {
+            $booguSolutionImg.attr("src", "images/bugu-solution2.svg");
+        } else {
+            $booguSolutionImg.attr("src", "images/bugu-solution1.svg");
+        }
+    }
+
 }
+

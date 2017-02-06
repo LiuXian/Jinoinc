@@ -48,7 +48,7 @@
     }
 
     $(window).resize(function() {
-        resizeIcon();
+         resizeIcon();
     });
 
     function resizeIcon() {
@@ -71,9 +71,7 @@
         $(".solutions-image-container").css({
             "margin-left": 0 - backWidth/2,
             "width" : backWidth,
-            "height": backWidth,
-            "border-radius": backWidth,
-            "-webkit-border-radius": backWidth
+            "height": backWidth
         });
     }
     

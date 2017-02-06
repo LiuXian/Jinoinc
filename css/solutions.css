@@ -30,10 +30,8 @@
     top: -107px;
     left: 50%;
     margin-left: -90px;
-    background: #fff;
     width: 180px;
     height: 180px;
-    border-radius: 180px;
     -webkit-transition:transform 1s ease-in-out;
     -moz-transition:transform 1s ease-in-out;
     -o-transition:transform 1s ease-in-out;
@@ -57,13 +55,13 @@
 }
 
 .bugu {
-    width: 58% !important;
-    margin-top: 47px !important;
+    width: 100%;
+    margin-top: 0px;
 }
 
 .solutions-image-container .solutions-image-icon {
-    width: 40%;
-    margin-top: 40px;
+    width: 100%;
+    margin-top: 10px;
 }
 .solutions-image-container h3{
   margin: 0;
@@ -141,10 +139,7 @@
         margin-bottom: 10px;
 
     }
-    .bugu {
-      width: 48% !important;
-      margin-top: 47px !important;
-    }
+
     .solutions-image-container{
       width: 150px;
       height: 150px;
