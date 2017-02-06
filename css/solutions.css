@@ -67,8 +67,7 @@
 }
 .solutions-image-container h3{
   margin: 0;
-  font-size: 20px;
-
+  font-size: 16px;
 }
 
 .SOLUTION-TITLE-BOOGU-TEXT{
@@ -151,9 +150,7 @@
       height: 150px;
       top: -99px;
     }
-    .solutions-image-container h3{
-      font-size: 16px;
-    }
+
     p.COPYRIGHT-TEXT{
       line-height: 30px;
       padding-bottom: 30px;

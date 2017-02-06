@@ -79,7 +79,7 @@ span.lang-switcher{
 }
 
 .search-input-button {
-    margin-top: 11px;
+    margin-top: 7px;
     margin-left: 10px;
 }
 
@@ -127,6 +127,23 @@ button.navbar-toggle.collapsed {
 }
 
 
+@media (max-width: 1100px) {
+    .nav-container {
+        padding-left: 6.5%;
+        padding-right: 7.5%;
+    }
+}
+
+@media (max-width: 1024px) {
+    ul.nav.navbar-nav.navbar-right {
+        margin-top : 0px;
+    }
+
+    .navbar.navbar-default.navbar-fixed-top .navbar-header {
+        height: 80px;
+    }
+}
+
 @media (max-width: 768px) {
     .row {
         padding: 10px 0;
@@ -140,16 +157,12 @@ button.navbar-toggle.collapsed {
         display: block;
     }
 
-    ul.nav.navbar-nav.navbar-right {
-        margin-top: 0px;
-    }
-
     .navbar.navbar-default.navbar-fixed-top .navbar-header {
         height: 80px;
     }
 
     a.navbar-brand {
-    margin-top: 6px;
+        margin-top: 6px;
     }
     span.lang-switcher{
         padding-left: 0;
@@ -158,6 +171,10 @@ button.navbar-toggle.collapsed {
         padding-top: 4px;
         margin-left: -13px;
         margin-right: -8%;
+    }
+
+    .navbar-toggle {
+        margin-top: 28px;
     }
 }
 

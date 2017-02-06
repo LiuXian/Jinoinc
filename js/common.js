@@ -2,6 +2,11 @@
     $(document).ready(function () {
         searchHandler();
         navHandler();
+        resizeBodyPaddingTop();
+    });
+
+    $(window).resize(function() {
+        resizeBodyPaddingTop();
     });
 
     function searchHandler() {
@@ -55,6 +60,13 @@
             event.stopPropagation();
         });
     }
+
+    function resizeBodyPaddingTop() {
+        var paddingTop = $("nav").height();
+        $("body").css({
+            "padding-top" : paddingTop
+        });
+    };
 
 })(jQuery);
 

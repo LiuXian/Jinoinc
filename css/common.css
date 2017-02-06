@@ -189,6 +189,13 @@ ul.dropdown-menu.solutions-dropdown {
     margin-left: 10px;
 }
 
+.modal-dialog input[type=text], .modal-dialog textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #FFF;
+}
+
 @media (max-width: 768px) {
     body {
         padding-top: 80px;

@@ -181,8 +181,15 @@ h2.SOLUTIONS-TEXT.text-center{
     .col-sm-6.col-md-6 h3{
         margin-top: 0;
         font-size: 23px;
-
+        line-height: 10px;
+        margin-bottom: 30px;
     }
+
+    .col-sm-6.col-md-6 h4 {
+        line-height: 30px;
+        font-weight: 600;
+    }
+
     .jumbotron-learn-more{
         width: 140px;
     }
