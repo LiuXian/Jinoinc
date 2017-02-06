@@ -42,7 +42,7 @@ langSwitch = $.extend(langSwitch, {
     },
 
     "ECOMMERCE-CONTENT-TEXT": {
-        "zh": "JINO Trader 是北京吉诺恒扬网络技术有限公司积累了多年来的资源成立的新产品线， 主要是为企业提供电子商务解决方案和服务咨询,运营.",
+        "zh": "JINO Trader 是北京吉诺恒扬网络技术有限公司积累了多年来的资源成立的新产品线， 主要是为企业提供电子商务解决方案和服务咨询，运营。",
         "en": "JINO Trader is a new powerful tools to help the corporation to enter the E-commerce world without anxiety."
     },
 

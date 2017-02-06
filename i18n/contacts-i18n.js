@@ -135,7 +135,7 @@ langSwitch = $.extend(langSwitch, {
     },
 
     "ABOUT-US-LINE2-TEXT": {
-        "zh": "公司目前有大约40多人的技术团队，骨干成员为有多年工作经验的PM,系统架构师，高级工程师等，在团队的共同努力下，我们多年来不但积累了无数的客户，也拥有了完善的产品和丰富的项目执行经验。",
+        "zh": "公司目前有大约40多人的技术团队，骨干成员为有多年工作经验的PM，系统架构师，高级工程师等，在团队的共同努力下，我们多年来不但积累了无数的客户，也拥有了完善的产品和丰富的项目执行经验。",
         "en": "The company currently has about 40 people in the technical team, the backbone members of the PM for many years of work experience, system architects, senior engineers, the joint efforts of the team, we have accumulated over the years not only countless customers, but also has improved Of products and a wealth of experience in project implementation."
     },
     "ABOUT-US-LINE3-TEXT": {
@@ -282,6 +282,18 @@ langSwitch = $.extend(langSwitch, {
     // privacy content end
 
     // job content start
+    "JOB-TABLE-TITLE-TEXT" : {
+        "zh": "职位",
+        "en": "Job"
+    },
+    "REQUIREMENTS-TABLE-TITLE-TEXT" : {
+        "zh": "要求",
+        "en": "Requirement"
+    },
+    "COUNT-TABLE-TITLE-TEXT" : {
+        "zh": "人数",
+        "en": "Count"
+    },
     "TEAMSITE-PM-TITLE-TEXT": {
         "zh": "TeamSite PM",
         "en": "TeamSite PM"
@@ -330,7 +342,6 @@ langSwitch = $.extend(langSwitch, {
         "zh": "高级职位",
         "en": "Senior position responsible"
     },
-
 
     "PHP-JUNIOR-TITLE-TEXT": {
         "zh": "PHP初中级工程师",
@@ -431,9 +442,15 @@ langSwitch = $.extend(langSwitch, {
     },
 
     "JOB-MEM-UNIT-TEXT": {
-        "zh": "名",
-        "en": "Persons"
+        "zh": "",
+        "en": ""
     },
+
+    "JOB-SINGLE-MEM-UNIT-TEXT": {
+        "zh": "",
+        "en": ""
+    },
+
     "HR-CONTACT-US-TEXT": {
         "zh": "联系我们",
         "en": "Contact us"

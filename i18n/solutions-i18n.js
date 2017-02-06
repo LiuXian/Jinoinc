@@ -71,7 +71,7 @@ langSwitch = $.extend(langSwitch, {
         "en": "Customized reports"
     },
     "BOOGU-GOAL-TEXT": {
-        "zh": "布谷的目标——为企业社交媒体提供全面管理、解决方案的SMCC（Social Media command center",
+        "zh": "布谷的目标——为企业社交媒体提供全面管理、解决方案的SMCC（Social Media command center）",
         "en": "Boogu's goal - to provide comprehensive management of social media, solutions SMCC (Social Media command center)"
     },
 
