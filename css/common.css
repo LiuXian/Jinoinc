@@ -18,7 +18,7 @@
 body {
     margin-bottom: 0;
     margin-right: 0;
-    padding-top:100px;
+    padding-top: 100px;
     font-family: 'opensans', 微软雅黑;
 }
 
@@ -190,6 +190,10 @@ ul.dropdown-menu.solutions-dropdown {
 }
 
 @media (max-width: 768px) {
+    body {
+        padding-top: 80px;
+    }
+
     .row {
         padding: 0px;
     }
