@@ -21,7 +21,7 @@
 }
 
 .container-solutions h3{
-  padding: 10px 0;
+  padding: 16px 0;
 }
 
 .solutions-image-container {
@@ -63,12 +63,16 @@
 
 .solutions-image-container .solutions-image-icon {
     width: 40%;
-    margin-top: 36px;
+    margin-top: 40px;
 }
 .solutions-image-container h3{
   margin: 0;
   font-size: 20px;
 
+}
+
+.SOLUTION-TITLE-BOOGU-TEXT{
+  padding-top: 20px !important;
 }
 
 .imsg {
@@ -145,7 +149,7 @@
     .solutions-image-container{
       width: 150px;
       height: 150px;
-      top: -72px;
+      top: -99px;
     }
     .solutions-image-container h3{
       font-size: 16px;

@@ -53,7 +53,7 @@ a.navbar-brand{
 }
 
 ul.nav.navbar-nav.navbar-right{
-    margin-top: 28px;
+    margin-top: -20px;
 }
 
 .lang-switch {
@@ -86,7 +86,7 @@ span.lang-switcher{
 .navbar-toggle{
     padding: 9px;
     border: none;
-    margin-top: 25px;
+    margin-top: 12px;
 }
 .navbar-nav{
     margin-top: 25px;
