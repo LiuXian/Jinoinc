@@ -147,6 +147,10 @@
     h3 {
         font-size: 18px;
     }
+
+    .col-xs-6.col-md-2.text-center{
+        margin: 5px 0 10px 0;
+    }
 }
 
 @media (min-width: 992px){
