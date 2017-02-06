@@ -80,15 +80,15 @@ var langSwitch = {
     },
     "CONTACT-US-MODAL-USERNAME-TEXT" : {
         "zh": "您的称呼",
-        "en": "username"
+        "en": "Your name"
     },
     "CONTACT-US-MODAL-USERNAME-EMPTY-ERROR-TEXT": {
         "zh": "姓名不能为空",
-        "en": "username can not be empty"
+        "en": "Your name can not be empty"
     },
     "CONTACT-US-MODAL-MAIL-TEXT" : {
         "zh": "邮箱地址",
-        "en": "email address"
+        "en": "Email address"
     },
     "CONTACT-US-MODAL-EMAIL-EMPTY-ERROR-TEXT" : {
         "zh": "E-mail不能为空",
@@ -100,7 +100,7 @@ var langSwitch = {
     },
     "CONTACT-US-MODAL-CONTACT-ADDR-TEXT" : {
         "zh": "联系地址",
-        "en": "contact address"
+        "en": "Contact address"
     },
     "CONTACT-US-MODAL-CONTACT-ADDR-EMPTY-ERROR-TEXT" : {
         "zh": "联系地址不能为空",
@@ -108,15 +108,15 @@ var langSwitch = {
     },
     "CONTACT-US-MODAL-COMPANY-ADDR-TEXT" : {
         "zh": "公司地址",
-        "en": "company address"
+        "en": "Company address"
     },
     "CONTACT-US-MODAL-COMPANY-ADDR-EMPTY-ERROR-TEXT" : {
         "zh": "公司地址不能为空",
-        "en": "company address can not be empty"
+        "en": "Company address can not be empty"
     },
     "CONTACT-US-MODAL-OFFICE-TEL-TEXT" : {
         "zh": "办公电话",
-        "en": "office tel"
+        "en": "Office tel"
     },
     "CONTACT-US-MODAL-OFFICE-TEL-ERROR-TEXT": {
         "zh": "办公电话不能为空",
@@ -128,7 +128,7 @@ var langSwitch = {
     },
     "CONTACT-US-MODAL-FAX-TEXT" : {
         "zh": "传真",
-        "en": "fax"
+        "en": "Fax"
     },
     "CONTACT-US-MODAL-FAX-EMPTY-ERROR-TEXT" : {
         "zh": "传真不能为空",
@@ -140,7 +140,7 @@ var langSwitch = {
     },
     "CONTACT-US-MODAL-ADVISORY-CONTENT-TEXT" : {
         "zh": "咨询内容",
-        "en": "content"
+        "en": "Content"
     },
     "AT-MOST-140-WORDS-ERROR-TEXT" : {
         "zh": "最多字数是140字",
@@ -149,11 +149,11 @@ var langSwitch = {
 
     "CONTACT-US-MODAL-CAPTCHA-TEXT" : {
         "zh": "验证码",
-        "en": "CAPTCHA"
+        "en": "Captcha"
     },
     "CONTACT-US-MODAL-CAPTCHA-EMPTY-ERROR-TEXT" : {
         "zh": "验证码不能为空",
-        "en": "CAPTCHA can not be empty"
+        "en": "Captcha can not be empty"
     },
     "CONTACT-US-MODAL-CAPTCHA-ERROR-TEXT" : {
         "zh": "验证码不正确",
