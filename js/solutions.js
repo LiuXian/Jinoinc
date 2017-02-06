@@ -55,6 +55,8 @@
         var times = 0.13;
         var windowWidth = $(window).width();
 
+        windowWidth = (windowWidth > 1366) ? 1366 : windowWidth;
+
         if(windowWidth < 992) {
             times = 0.2;
         }
