@@ -305,12 +305,12 @@ langSwitch = $.extend(langSwitch, {
 
     "TEAMSITE-PM-REQUIREMENT-PART2-TEXT": {
         "zh": "管理超过一个项目",
-        "en": "Manage more than one project"
+        "en": "Have experience manage more than one project"
     },
 
     "TEAMSITE-PM-REQUIREMENT-PART3-TEXT": {
         "zh": "高级职位",
-        "en": "Senior positions"
+        "en": "Senior position"
     },
 
     "TEAMSITE-ENGINEER-TITLE-PART3-TEXT": {
@@ -320,17 +320,17 @@ langSwitch = $.extend(langSwitch, {
 
     "TEAMSITE-ENGINEER-REQUIREMENT-PART1-TEXT": {
         "zh": "初级或者中级工程师有编程的背景，1-3年经验",
-        "en": "Beginner / Intermediate Engineer with programming background, 1-3 Year (s) of experience"
+        "en": "Junior / Intermediate Engineer with programming background, 1-3 Year(s) of experience"
     },
 
     "TEAMSITE-ENGINEER-REQUIREMENT-PART2-TEXT": {
         "zh": "愿意走产品实施路线",
-        "en": "Willingness to take Product route"
+        "en": "Willingness to work for product implementation"
     },
 
     "TEAMSITE-LEAD-TITLE-TEXT": {
-        "zh": "TeamSite Lead",
-        "en": "TeamSite Lead"
+        "zh": "TeamSite Consultant",
+        "en": "TeamSite Consultant"
     },
 
     "TEAMSITE-LEAD-REQUIREMENT-PART1-TEXT": {
@@ -340,7 +340,7 @@ langSwitch = $.extend(langSwitch, {
 
     "TEAMSITE-LEAD-REQUIREMENT-PART2-TEXT": {
         "zh": "高级职位",
-        "en": "Senior position responsible"
+        "en": "Senior position"
     },
 
     "PHP-JUNIOR-TITLE-TEXT": {
@@ -350,17 +350,17 @@ langSwitch = $.extend(langSwitch, {
 
     "PHP-JUNIOR-REQUIREMENT-PART1-TEXT": {
         "zh": "1-2年PHP相关开发经验、潜质新人也可考虑",
-        "en": "1-2 years experience in PHP-related development, new potential can also be considered "
+        "en": "1-2 years experience in PHP-related development, junior engineer have potential also can be considered"
     },
 
     "PHP-JUNIOR-REQUIREMENT-PART2-TEXT": {
         "zh": "熟悉Zend、CodeIgniter、MVC概念等Framework者优先",
-        "en": "Familiar with Zend, CodeIgniter, MVCConcepts, etc. Framework is preferred"
+        "en": "Familiar with Zend, CodeIgniter, MVC Concepts, etc. Framework is preferred"
     },
 
     "PHP-JUNIOR-REQUIREMENT-PART3-TEXT": {
         "zh": "熟悉MySQL或MongoDB，具有相关应用开发经验及数据库规划能力",
-        "en": "Familiar with MySQL or MongoDB, with relevant application development experienceAnd database planning skills"
+        "en": "Familiar with MySQL or MongoDB, with relevant application development experience and database planning skills"
     },
 
     "PHP-JUNIOR-REQUIREMENT-PART4-TEXT": {
@@ -384,7 +384,7 @@ langSwitch = $.extend(langSwitch, {
 
     "SENIOR-CMS-IMPLEMENTATION-ENGINEER-REQUIREMENT-PART3-TEXT": {
         "zh": "愿意走产品实施路线",
-        "en": "Willing to take the product line"
+        "en": "Willing to work for product implementation"
     },
 
     "SENIOR-CMS-IMPLEMENTATION-ENGINEER-REQUIREMENT-PART4-TEXT": {
@@ -394,7 +394,7 @@ langSwitch = $.extend(langSwitch, {
 
     "FRONT-END-ENGINEER-TITLE-TEXT": {
         "zh": "Web前端工程师",
-        "en": "Web fron-end engineer"
+        "en": "Web front-end engineer"
     },
     "FRONT-END-ENGINEER-REQUIREMENT-PART1-TEXT": {
         "zh": "有过大型网站前端代码编写经验",
@@ -406,11 +406,11 @@ langSwitch = $.extend(langSwitch, {
     },
     "FRONT-END-ENGINEER-REQUIREMENT-PART3-TEXT": {
         "zh": "精通JavaScript",
-        "en": "Proficient JavaScript"
+        "en": "Experience in JavaScript"
     },
     "FRONT-END-ENGINEER-REQUIREMENT-PART4-TEXT": {
         "zh": "高级职位",
-        "en": "advanced positions"
+        "en": "Senior position"
     },
     "PHP-SENIOR-ENGINEER-TITLE-TEXT": {
         "zh": "PHP中高级工程师",
@@ -428,17 +428,17 @@ langSwitch = $.extend(langSwitch, {
 
     "PHP-SENIOR-ENGINEER-REQUIREMENT-PART3-TEXT": {
         "zh": "熟练HTML \DIV\ CSS熟练掌握数据库结构设计、索引的使用与SQL语句的优化 ",
-        "en": "Skilled HTML \ DIV \ CSS proficiency in database structure design, the use of the index and SQL statement optimization"
+        "en": "Skilled HTML DIV CSS, proficiency in database structure design, the use of the index and SQL optimization"
     },
 
     "PHP-SENIOR-ENGINEER-REQUIREMENT-PART4-TEXT": {
         "zh": "熟练使用MySQL或MongoDB等数据库，至少使用过一种缓存数据库如Redis或Memcache",
-        "en": "Proficiency in database structure design, the use of the index and SQL statement optimization / proficiency in the use of MySQL or MongoDB database, at least used a cache database such as Redis or Memcache familiar Linux operating system"
+        "en": "Proficiency in the use of MySQL or MongoDB database, at least used a cache database such as Redis or Memcache"
     },
 
     "PHP-SENIOR-ENGINEER-REQUIREMENT-PART5-TEXT": {
         "zh": "熟悉Linux操作系统，熟悉常见SHELL命令",
-        "en": "Familiar Linux operating system, familiar with the common Shell command"
+        "en": "Familiar Linux operating system and the SHELL command"
     },
 
     "JOB-MEM-UNIT-TEXT": {
@@ -457,7 +457,7 @@ langSwitch = $.extend(langSwitch, {
     },
     "CONTACT-FIELD-TEXT": {
         "zh": "联系人: ",
-        "en": "Contact: "
+        "en": "Contact Person: "
     },
 
     "CONTACT-TEXT": {
@@ -491,7 +491,7 @@ langSwitch = $.extend(langSwitch, {
 
     "CONTACT-ADDR-TEXT": {
         "zh": "北京市朝阳区建国门外大街22号赛特大厦二层",
-        "en": "Chaoyang District, Beijing, Jianguomenwai Avenue on the 22nd Dorset Building, second floor"
+        "en": "2nd Floor,Scitech Tower,22 Jianguomenwai Avenue,Chaoyang, Beijing, China"
     }
     // job content end
 
