@@ -12,7 +12,7 @@ langSwitch = $.extend(langSwitch, {
 
     "JOBS-SECION-TITLE-TEXT" : {
         "zh" : "招纳贤士",
-        "en" : "Jobs"
+        "en" : "Careers- Join JINO"
     },
 
     "PRIVACY-SECION-TITLE-TEXT" : {
