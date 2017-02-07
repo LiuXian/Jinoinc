@@ -62,12 +62,16 @@ I18N.prototype.repaceLink = function (lang) {
         }
     })
 
-    var $booguSolutionImg = $("#bogu-solution-img");
-    if($booguSolutionImg.length > 0) {
+    var $zhBooguSolutionImg = $(".bugu-solution-zh");
+    var $enBooguSolutionImg = $(".bugu-solution-en");
+
+    if(($zhBooguSolutionImg.length > 0) && ($enBooguSolutionImg.length > 0)) {
         if(lang == "en") {
-            $booguSolutionImg.attr("src", "images/bugu-solution2.svg");
+            $zhBooguSolutionImg.hide();
+            $enBooguSolutionImg.show();
         } else {
-            $booguSolutionImg.attr("src", "images/bugu-solution1.svg");
+            $zhBooguSolutionImg.show();
+            $enBooguSolutionImg.hide();
         }
     }
 
