@@ -127,6 +127,15 @@
     left: 50%;
 }
 
+.service-circle-container {
+    text-align: center;
+}
+
+.solution-intro-img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
 @media (max-width: 768px) {
     .container-solutions {
         padding: 10px 8%;

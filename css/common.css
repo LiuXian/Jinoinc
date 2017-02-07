@@ -29,6 +29,10 @@ h2.OUR-CLIENTS-SECTION-TITLE-TEXT.text-center{
     color: #fff;
 }
 
+h2.OUR-ALLIANCE-SECTION-TITLE-TEXT.text-center{
+    color: #fff;
+}
+
 a{
     cursor: pointer;
     transition: color 0.3s;

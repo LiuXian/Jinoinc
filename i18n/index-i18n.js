@@ -16,10 +16,15 @@ langSwitch = $.extend(langSwitch, {
         "en": "BOOGU"
     },
 
-    "OUR-CLIENTS-SECTION-TITLE-TEXT": {
+    "OUR-ALLIANCE-SECTION-TITLE-TEXT": {
         "zh": "合作伙伴",
-        "en": "Clients"
+        "en": "Alliance & Partners "
     },
+
+    "OUR-CLIENTS-SECTION-TITLE-TEXT": {
+        "zh": "我们的客户",
+        "en": "Clients"
+     },
 
     "BOOGU-WEIBO-MANAGEMENT-TITLE-TEXT": {
         "zh": "布谷微博管理系统",
