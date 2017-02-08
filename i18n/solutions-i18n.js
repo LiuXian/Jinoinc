@@ -402,5 +402,33 @@ langSwitch = $.extend(langSwitch, {
     "LANGUAGE-TEXT" : {
         "zh" : "语言",
         "en" : "Language"
+    },
+
+    "OUR-OBJECTIVE-TITLE-TEXT" : {
+        "zh" : "我们的服务目标",
+        "en" : "Our objective"
+    },
+
+    "ONE-STOP-TITLE-TEXT" : {
+        "zh": "一站式程序解决方案",
+        "en": "One-stop solution of data automation"
+    },
+
+    "OWNED-MEDIA-TITLE-TEXT" : {
+        "zh": "自媒体增强",
+        "en": "Owned media enhancement"
+    },
+
+    "MOBILE-ESHOP-TITLE-TEXT" : {
+        "zh": "手机电商",
+        "en": "Mobile E-shop"
+    },
+
+    "WECHAT-ESHOP-TITLE-TEXT" : {
+        "zh": "微信电商",
+        "en": "Wechat E-shop"
     }
+
+
+
 });
