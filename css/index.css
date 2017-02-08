@@ -118,7 +118,7 @@ h2.SOLUTIONS-TEXT.text-center{
 }
 
 
-.our-clients-container {
+.our-alliance-container {
     background: url(../images/clientsbg.jpg) no-repeat center top fixed;
     -webkit-background-size: cover;
     background-size: cover;
@@ -126,7 +126,12 @@ h2.SOLUTIONS-TEXT.text-center{
     padding-bottom: 50px;
 }
 
-.our-clients-container .thumbnail {
+.our-clients-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.our-alliance-container .thumbnail {
     background-color: transparent;
 }
 
