@@ -140,6 +140,10 @@
     margin-bottom: 20px;
 }
 
+.solution-intro-img.en {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .container-solutions {
         padding: 10px 8%;

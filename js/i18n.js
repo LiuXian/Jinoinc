@@ -75,5 +75,18 @@ I18N.prototype.repaceLink = function (lang) {
         }
     }
 
+    var $solutionImgEn = $(".solution-intro-img.en");
+    var $solutionImgZh = $(".solution-intro-img.zh");
+
+    if(($solutionImgEn.length > 0) && ($solutionImgZh.length > 0)) {
+            if(lang == "en") {
+                $solutionImgZh.hide();
+                $solutionImgEn.show();
+            } else {
+                $solutionImgZh.show();
+                $solutionImgEn.hide();
+            }
+        }
+
 }
 
